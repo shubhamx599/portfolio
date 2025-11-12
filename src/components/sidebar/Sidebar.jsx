@@ -52,7 +52,7 @@ const Sidebar = () => {
         {/* Download Resume Button */}
         <div className="mb-6">
           <a
-            href="/resume.pdf"
+            href="/Resume_Shubham_Kumar_Frontend_@shubhamx599.pdf"
             download
             className="w-full glass-card py-3 rounded-xl flex items-center justify-center gap-2 text-yellow-400 hover:bg-yellow-400/20 transition-all duration-300 group"
           >
