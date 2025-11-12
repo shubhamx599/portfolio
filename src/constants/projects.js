@@ -1,65 +1,36 @@
 // src/constants/projects.js
-import project1 from '../assets/images/project-1.jpg';
+import project1 from '../assets/images/project-1.png';
 import project2 from '../assets/images/project-2.png';
-import project3 from '../assets/images/project-3.jpg';
-import project4 from '../assets/images/project-4.png';
-import project5 from '../assets/images/project-5.png';
-import project6 from '../assets/images/project-6.png';
+import project3 from '../assets/images/project-3.png';
+
 
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "Finance Dashboard",
-    description: "A modern financial dashboard with real-time analytics and interactive charts",
+    title: "Nexus Arena",
+    description: "A Modern Online Gaming Tournaments & Community website.",
     image: project1,
-    technologies: ["React", "Tailwind CSS", "Chart.js"],
-    liveUrl: "#",
-    githubUrl: "#"
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP"],
+    liveUrl: "https://nexusarena.vercel.app/",
+    githubUrl: "https://github.com/shubhamx599/nexusarena"
   },
   {
     id: 2,
-    title: "Orizon E-commerce", 
-    description: "Full-featured e-commerce platform with cart and payment integration",
+    title: "AIWay", 
+    description: "Discover the perfect AI courses across top platforms. Compare prices, curriculum, and reviews.",
     image: project2,
-    technologies: ["React", "Node.js", "MongoDB"],
-    liveUrl: "#", 
-    githubUrl: "#"
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP", "Fuse.js"],
+    liveUrl: "https://aiway.vercel.app/", 
+    githubUrl: "https://github.com/shubhamx599/aiway"
   },
   {
     id: 3,
-    title: "Fundo Learning",
-    description: "Educational platform with course management and progress tracking",
+    title: "DAM Craft Events",
+    description: "A modern event management website for DAM Craft Events, featuring event details, galleries, highlights, and more.",
     image: project3,
-    technologies: ["React", "Firebase", "Material UI"],
-    liveUrl: "#",
-    githubUrl: "#"
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "GSAP", "Lenis", "ScrollTrigger", "Split Type"],
+    liveUrl: "https://damcraftevents.vercel.app/",
+    githubUrl: "https://github.com/shubhamx599/damcraftevents"
   },
-  {
-    id: 4,
-    title: "Brawlhalla Gaming",
-    description: "Gaming community platform with tournament management",
-    image: project4,
-    technologies: ["React", "Socket.io", "Express"],
-    liveUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    id: 5,
-    title: "DSM Design System",
-    description: "Comprehensive design system with reusable components",
-    image: project5,
-    technologies: ["React", "Storybook", "Figma"],
-    liveUrl: "#",
-    githubUrl: "#"
-  },
-  {
-    id: 6,
-    title: "MetaSpark Social",
-    description: "Social media platform with real-time messaging",
-    image: project6,
-    technologies: ["React", "Firebase", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "#"
-  }
 ];

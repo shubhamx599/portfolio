@@ -12,10 +12,12 @@ import {
 
 const Resume = () => {
   const skills = [
-    { name: 'Web Design', percentage: 80 },
-    { name: 'Graphic Design', percentage: 70 },
-    { name: 'Branding', percentage: 90 },
-    { name: 'WordPress', percentage: 50 }
+    { name: 'HTML / CSS / JS', percentage: 90 },
+    { name: 'React.js', percentage: 85 },
+    { name: 'Tailwind CSS', percentage: 95 },
+    { name: 'GSAP / Framer Motion', percentage: 75 },
+    { name: 'UI/UX Design', percentage: 90 },
+    { name: 'Graphic Design', percentage: 96 }
   ];
 
   return (
