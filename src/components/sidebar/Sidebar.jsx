@@ -19,7 +19,7 @@ const Sidebar = () => {
   const { copiedField, handleCopy } = useCopyToClipboard();
 
   return (
-    <div className="glass-card-dark border border-white/10 w-full max-w-md mx-auto lg:max-w-none lg:w-auto lg:sticky lg:top-6">
+    <div className="glass-card border border-white/10 w-full max-w-md mx-auto lg:max-w-none lg:w-auto lg:sticky lg:top-6">
       <div className="p-6">
         {/* Header Section */}
         <div className="flex items-center gap-4 mb-6">
