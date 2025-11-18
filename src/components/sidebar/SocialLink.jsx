@@ -20,7 +20,7 @@ const SocialLink = ({ href, name }) => {
       href={href} 
       target="_blank" 
       rel="noopener noreferrer"
-      className="icon-hover w-10 h-10 rounded-lg bg-gradient-to-br from-gray-700 to-gray-900 border border-gray-600 flex items-center justify-center text-gray-400 hover:text-yellow-400 transition-all duration-300"
+      className="w-10 h-10 rounded-lg bg-gradient-to-br from-gray-700 to-gray-900 border border-gray-600 flex items-center justify-center text-gray-400 hover:text-yellow-400 hover:border-yellow-400 hover:transform-[scale(1.1)] transition-all duration-300"
       aria-label={`Visit my ${name}`}
     >
       {getIcon()}
