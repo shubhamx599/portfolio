@@ -34,7 +34,7 @@ const ProjectCard = ({ project }) => {
         <h3 className="text-white text-xl font-semibold mb-2 group-hover:text-yellow-400 transition-colors">
           {project.title}
         </h3>
-        <p className="text-gray-400 text-sm mb-4 line-clamp-2 flex-1">
+        <p className="text-gray-400 text-sm mb-4 line-clamp-3 flex-1">
           {project.description}
         </p>
         <div className="flex flex-wrap gap-2">
