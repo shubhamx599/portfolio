@@ -1,4 +1,3 @@
-import React from 'react';
 import { RiExternalLinkLine, RiGithubLine } from '@remixicon/react';
 
 const ProjectCard = ({ project }) => {

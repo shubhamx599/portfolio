@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ServiceCard = ({ service }) => (
   <div className="glass-card p-6 hover:border-yellow-400/50 transition-all duration-300 group">
     <div className="flex items-start gap-4">

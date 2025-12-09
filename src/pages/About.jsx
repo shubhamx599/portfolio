@@ -1,7 +1,8 @@
 import React from "react";
 import { RiCodeSSlashLine, RiPaletteLine } from "@remixicon/react";
 import { SKILLS } from "../constants/skills";
-import { ServiceCard, SkillItem } from "../components/about";
+import ServiceCard from "../components/ServiceCard";
+import SkillItem from "../components/SkillItem";
 
 const About = () => {
   const services = [

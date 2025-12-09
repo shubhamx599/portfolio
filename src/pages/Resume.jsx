@@ -3,12 +3,10 @@ import { RiBriefcaseLine, RiGraduationCapLine, RiAwardLine } from '@remixicon/re
 import { EXPERIENCE } from '../constants/experience';
 import { EDUCATION } from '../constants/education';
 import { CERTIFICATIONS } from '../constants/certifications';
-import { 
-  ExperienceItem, 
-  EducationItem, 
-  CertificationItem, 
-  SkillBar 
-} from '../components/resume';
+import ExperienceItem from '../components/ExperienceItem';
+import EducationItem from '../components/EducationItem';
+import CertificationItem from '../components/CertificationItem';
+import SkillBar from '../components/SkillBar';
 
 const Resume = () => {
   const skills = [

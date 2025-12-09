@@ -1,6 +1,5 @@
-import React from 'react';
 import { PROJECTS } from '../constants/projects';
-import { ProjectCard } from '../components/projects';
+import ProjectCard from '../components/ProjectCard';
 
 const Portfolio = () => {
   return (

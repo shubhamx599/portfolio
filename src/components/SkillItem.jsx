@@ -1,5 +1,3 @@
-import React from 'react';
-
 const SkillItem = ({ skill, index }) => (
   <div className="flex flex-col items-center text-center group cursor-pointer">
     <div className="w-16 h-16 bg-gray-800 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 mb-2 border border-gray-700">
